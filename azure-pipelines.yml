@@ -11,8 +11,8 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'bbb93ebd-c6ac-497e-8765-d935a162579e'
-  imageRepository: 'devinodedockerdemo'
-  containerRegistry: 'webnewacr.azurecr.io'
+  imageRepository: 'Devi'
+  containerRegistry: 'acr980.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
